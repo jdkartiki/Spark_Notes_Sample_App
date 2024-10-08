@@ -1,0 +1,101 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<display-name>RegisterServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.ravi.ates.notes.servlets.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.ravi.ates.notes.servlets.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogOutServlet</servlet-name>
+  	<display-name>LogOutServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.ravi.ates.notes.servlets.LogOutServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>OperationServlet</servlet-name>
+  	<display-name>OperationServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.ravi.ates.notes.servlets.OperationServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>GetSubjectListByClassServlet</servlet-name>
+  	<display-name>GetSubjectListByClassServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.ravi.ates.notes.servlets.GetSubjectListByClassServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>GetCountryStateservlet</servlet-name>
+  	<display-name>GetCountryStateservlet</display-name>
+  	<description></description>
+  	<servlet-class>com.ravi.ates.notes.servlets.GetCountryStateservlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DownloadFileServlet</servlet-name>
+  	<display-name>DownloadFileServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.ravi.ates.notes.servlets.DownloadFileServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RemoveDataServlet</servlet-name>
+  	<display-name>RemoveDataServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.ravi.ates.notes.servlets.RemoveDataServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ResetPassword</servlet-name>
+  	<display-name>ResetPassword</display-name>
+  	<description></description>
+  	<servlet-class>com.ravi.ates.notes.servlets.ResetPasswordServlet</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogOutServlet</servlet-name>
+  	<url-pattern>/LogOutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>OperationServlet</servlet-name>
+  	<url-pattern>/OperationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>GetSubjectListByClassServlet</servlet-name>
+  	<url-pattern>/GetSubjectListByClassServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>GetCountryStateservlet</servlet-name>
+  	<url-pattern>/GetCountryStateservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DownloadFileServlet</servlet-name>
+  	<url-pattern>/DownloadFileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RemoveDataServlet</servlet-name>
+  	<url-pattern>/removedata</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ResetPassword</servlet-name>
+  	<url-pattern>/ResetPassword</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
